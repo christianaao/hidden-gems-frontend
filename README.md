@@ -6,6 +6,16 @@ A web application that allows users to discover, review, and comment on hidden g
 
 This project is a Next.js web application used primarily for routing and layout. It is connected to an Express backend that handles all data-related operations. Users can explore hidden gems, submit reviews, and engage with the platform through dynamic content rendering.
 
+## Project Links
+
+Backend API: https://hidden-gems-cd0h.onrender.com/api
+Backend Repo: https://github.com/christianaao/hidden-gems
+Original Repo Link: https://github.com/espiers13/hidden-gems
+
+Frontend APP: https://hidden-gems-frontend.vercel.app/
+Frontend Repo: https://github.com/christianaao/hidden-gems-frontend
+Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend
+
 ## Features
 
 - Next.js File-based Routing: Efficient routing system using the file structure.
