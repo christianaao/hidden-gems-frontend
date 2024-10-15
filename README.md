@@ -8,13 +8,15 @@ This project is a Next.js web application used primarily for routing and layout.
 
 ## Project Links
 
-Backend API: https://hidden-gems-cd0h.onrender.com/api
-Backend Repo: https://github.com/christianaao/hidden-gems
-Original Repo Link: https://github.com/espiers13/hidden-gems
+Backend API: https://hidden-gems-cd0h.onrender.com/api <br>
+Backend Repo: https://github.com/christianaao/hidden-gems <br>
+Original Repo Link: https://github.com/espiers13/hidden-gems <br>
 
-Frontend APP: https://hidden-gems-frontend.vercel.app/
-Frontend Repo: https://github.com/christianaao/hidden-gems-frontend
-Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend
+Frontend APP: https://hidden-gems-frontend.vercel.app/ <br>
+Frontend Repo: https://github.com/christianaao/hidden-gems-frontend <br>
+Original Repo Link: https://github.com/flynnjim/hidden-gems-frontend <br>
+
+_Please refer to the Backend Repo on guidance for using the Backend API_
 
 ## Features
 
