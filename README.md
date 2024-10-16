@@ -1,10 +1,8 @@
-# Hidden Gems - Frontend
+# Hidden Gems Application
 
-A web application that allows users to discover, review, and comment on hidden gems (places) using a Next.js frontend and an Express backend.
+## About this Project
 
-## Project Overview
-
-This project is a Next.js web application used primarily for routing and layout. It is connected to an Express backend that handles all data-related operations. Users can explore hidden gems, submit reviews, and engage with the platform through dynamic content rendering.
+This project is the frontend application of the Hidden Gems website, created using Next.js, React Leaflet Maps, Tailwind CSS and much more. It is connected to an Express backend server that handles all data-related operations (please see Backend links below). This website is designed to allow users to discover, review, and comment on Hidden Gems (places and events) around Greater Manchester.
 
 ## Project Links
 
@@ -18,7 +16,7 @@ Original Repo Link: https://github.com/espiers13/hidden-gems <br>
 
 _Please refer to the Backend Repo on guidance for using the Backend API_
 
-## Features
+## Features of this Project
 
 - Next.js File-based Routing: Efficient routing system using the file structure.
 - Dynamic Page Layouts: Pages and layouts built with React components.
@@ -29,47 +27,46 @@ _Please refer to the Backend Repo on guidance for using the Backend API_
 
 ## Tech Stack
 
-Frontend:
+#### Frontend
 
-- Next.js (File Routing & Layout)
-- React
-- Tailwind CSS
-- Axios for API requests
-- Leaflet for displaying maps
-- Firebase for managing avatars
-- GeoCode.maps.co API for geocoding
+- Next.js (file routing and layout)
+- React Hook Form Library
+- Tailwind CSS, HeadlessUI and MUI
+- Axios - API requests
+- React Leaflet - displaying maps
+- Firebase for managing stored data e.g. avatars
+- GeoCode.maps.co API - map geocoding
+- Yup Validation Library
+- Versel - hosting
 
-Backend:
+#### Backend
 
-- Express.js (handled separately)
-- Database:
-- PostgreSQL (integrated via the backend)
+- Express.js
+- PostgreSQL
+- Jest / SuperTest
+- Supabase
+- Render
 
-## Installation
+## Running this Project Locally
+
+### Installation
 
 Ensure you have the following installed:
 
-Node.js (v14.x or later)
-npm (v6.x or later)
+Node.js v14.x or later. Instructions to do this can be found here: https://nodejs.org/en <br>
+npm v6.x or later. To install this, run `npm install npm@latest -g` in your terminal
 
-1. Clone the repository:
-   `https://github.com/flynnjim/hidden-gems-frontend.git`
+### Setup
 
-2. Navigate to the project directory:
-   `cd hidden-gems-frontend`
+1. Clone or fork this repository.
 
-3. Install dependencies:
-   `npm install`
+2. In your terminal, locate the directory you would like to save the code to and type `git clone` followed by the cloned/forked repo link.
 
-4. Set up environment variables in a .env.local file:
-   `NEXT_PUBLIC_API_URL=<Your Express Backend API URL>`
-   `NEXT_PUBLIC_FIREBASE_API_KEY=<Your Firebase API key>`
-   `NEXT_PUBLIC_GEOCODER_API_KEY=<Your Geocode.maps.co API key> `
+3. In the cloned directory, type `npm install` in your terminal to install all dependencies.
 
-5. To run the app in development mode:
-   `npm run dev`
-   The application will be available at http://localhost:3000.
+4. Create a dotenv file titled `.env.local`, and insert the following environment variables:
+   * `NEXT_PUBLIC_API_URL=<Your Express Backend API URL>`
+   * `NEXT_PUBLIC_FIREBASE_API_KEY=<Your Firebase API key>`
+   * `NEXT_PUBLIC_GEOCODER_API_KEY=<Your Geocode.maps.co API key>`
 
-6. To build and run the app in production:
-   `npm run build`
-   `npm run start`
+5. To run the app in development mode, type `npm run dev` and the application will become available on the following URL: `http://localhost:3000`.
