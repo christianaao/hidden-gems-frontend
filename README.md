@@ -25,6 +25,8 @@ _Please refer to the Backend Repo on guidance for using the Backend API_
 - Firebase Avatar Selection: Firebase is used for storing and selecting user avatars during signup.
 - Tailwind CSS: Used for styling the components.
 
+This project was created as part of a group project. This CRUD (Create, Read, Update, Delete) application provides users with an engaging experience for browsing and interacting with Hidden Gems around Greater Manchester through our site.
+
 ## Tech Stack
 
 #### Frontend
