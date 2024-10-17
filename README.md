@@ -18,45 +18,68 @@ _Please refer to the Backend Repo on guidance for using the Backend API_
 
 ## Features of this Project
 
-- Next.js File-based Routing: Efficient routing system using the file structure.
-- Dynamic Page Layouts: Pages and layouts built with React components.
-- API Integration with Express Backend: All data (users, gems, comments) is fetched from the backend using Axios.
-- Interactive Map: Leaflet is used for displaying gem locations on a map.
-- Firebase Avatar Selection: Firebase is used for storing and selecting user avatars during signup.
-- Tailwind CSS: Used for styling the components.
-
 This project was created as part of a group project. This CRUD (Create, Read, Update, Delete) application provides users with an engaging experience for browsing and interacting with Hidden Gems around Greater Manchester through our site.
+
+### Website Features
+
+* Map which allows user to view all events and places (Gems) around Greater Manchester. Can also activate your location to view Gems near you.
+* a list of all Hidden Gems to browse through, with details about the event or place such as creater, date of event (where applicable), and vote and comment counts
+* Home page displays Top Gems and Gems Happening Soon which features carrossel swiping functionality
+* inidividual Hidden Gem pages that can be viewed and read
+* functionality to filter Gems by category
+* functionality to sort Gems by date or rating in ascending or descending order
+* a voting section for each individual Gem
+* a comments section for each individual Gem
+* Login and Sign Up forms and validation
+* Menu side panel and navigation bar
+* user page detailing personal info and Gems posted
+* functionality to add and delete comments posted by the user
+* users can also post a new Hidden Gem:
+    - form validation for missing/incorrect detail formats
+    - ability to upload images
+    - map functionality to access location coordinates to determine Gem address
+
+_and more features to come!_
+
+### Technology
+
+- Next.js File-Based Routing: efficient routing system using the file structure
+- Dynamic Page Layouts: pages and layouts built with React components
+- API Integration with Express Backend: all data (users, gems, comments) are fetched from the backend using Axios
+- Map Coordination: GeoCode.maps.co API converted coordinates to addresses and vice-versa
+- Interactive Map: React Leaflet allows Gem locations to be displayed visually on the map
+- Firebase Data Storing and Image Uploading: Firebase allows users to upload and store images, as well as access to select stored files in the database e.g. user avatars during signup
+- Tailwind CSS: for styling components
 
 ## Tech Stack
 
 #### Frontend
 
-- Next.js (file routing and layout)
-- React Hook Form Library
+- Next.js
+- Axios
+- Firebase
+- React Leaflet
+- GeoCode.maps.co API
 - Tailwind CSS, HeadlessUI and MUI
-- Axios - API requests
-- React Leaflet - displaying maps
-- Firebase for managing stored data e.g. avatars
-- GeoCode.maps.co API - map geocoding
+- FontAwesome
+- React Hook Form Library
 - Yup Validation Library
-- Versel - hosting
+- Versel
 
 #### Backend
 
 - Express.js
 - PostgreSQL
-- Jest / SuperTest
+- Jest, SuperTest and Husky
 - Supabase
 - Render
 
 ## Running this Project Locally
 
-### Installation
+### Installation and Software Requirements
 
-Ensure you have the following installed:
-
-Node.js v14.x or later. Instructions to do this can be found here: https://nodejs.org/en <br>
-npm v6.x or later. To install this, run `npm install npm@latest -g` in your terminal
+Node.js - v14.x or later. Instructions to do this can be found here: https://nodejs.org/en <br>
+npm - v6.x or later. To install this, run `npm install npm@latest -g` in your terminal
 
 ### Setup
 
