@@ -22,18 +22,18 @@ This project was created as part of a group project. This CRUD (Create, Read, Up
 
 ### Website Features
 
-* Map which allows user to view all events and places (Gems) around Greater Manchester. Can also activate your location to view Gems near you.
-* a list of all Hidden Gems to browse through, with details about the event or place such as creater, date of event (where applicable), and vote and comment counts
+* visual map which allows user to view all events and places (Gems) around Greater Manchester. Can also activate your location to view Gems near you.
+* list of all Hidden Gems to browse through, with details about the event or place such as creater, date of event (where applicable), and vote and comment counts
 * Home page displays Top Gems and Gems Happening Soon which features carrossel swiping functionality
 * inidividual Hidden Gem pages that can be viewed and read
 * functionality to filter Gems by category
 * functionality to sort Gems by date or rating in ascending or descending order
-* a voting section for each individual Gem
-* a comments section for each individual Gem
-* Login and Sign Up forms and validation
+* voting section for each individual Gem
+* comments section for each individual Gem
+* Login and Sign Up form validation and authentication
 * Menu side panel and navigation bar
 * user page detailing personal info and Gems posted
-* functionality to add and delete comments posted by the user
+* functionality for a user to add and delete comments they post
 * users can also post a new Hidden Gem:
     - form validation for missing/incorrect detail formats
     - ability to upload images
