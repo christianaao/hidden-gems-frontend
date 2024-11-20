@@ -95,3 +95,5 @@ npm - v6.x or later. To install this, run `npm install npm@latest -g` in your te
    * `NEXT_PUBLIC_GEOCODER_API_KEY=<Your Geocode.maps.co API key>`
 
 5. To run the app in development mode, type `npm run dev` and the application will become available on the following URL: `http://localhost:3000`.
+
+☺ I hope you enjoy browsing through my website ☺
