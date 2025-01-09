@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const hiddenGemsApi = axios.create({
-  baseURL: "https://hidden-gems-cd0h.onrender.com/api",
+  baseURL: "https://hidden-gems-project.onrender.com/api",
 });
 
 export const fetchGems = (sort_by, order, category) => {
