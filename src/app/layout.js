@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { UserProvider } from "@/context/UserContext";
 import metaInfo from "../../data.json";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const { icons } = metaInfo;
 
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
           <main className="container mx-auto p-4 grow">{children}</main>
           <Footer />
         </UserProvider>
+        <SpeedInsights/>
       </body>
     </html>
   );
